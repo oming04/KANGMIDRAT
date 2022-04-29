@@ -1,0 +1,8 @@
+# --- Untuk-Menjalankan-Bot--------- #
+pyrogram==1.4.1
+TgCrypto
+Pyromod
+# --- Untuk-Database ------------ #
+sqlalchemy~=1.3.23
+psycopg2-binary
+feedparser
