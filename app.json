@@ -11,27 +11,29 @@
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Masukan Bot token, Dapatkan dari t.me/BotFather",
-      "value": "5204908479:AAGgqXpc-sj7O8iLFbTvVsstR_X7DJV2FW4"
+      "value": ""
     },
     "OWNER": {
       "description": "Masukan Username Telegram untuk Owner BOT [ Jangan Pake @ ]",
-      "value": "SilenceSpe4ks"
+      "value": "",
+      "required": false
     },
     "OWNER_ID": {
       "description": "Masukan User ID Telegram untuk Owner BOT",
-      "value": "5308599071"
+      "value": "1436578278",
+      "required": false
     },
     "ADMINS": {
       "description": "Masukan User ID untuk mendapatkan hak Admin BOT [Hanya dapat membuat link]",
-      "value": "5308599071"
+      "value": "1436578278"
     },
     "APP_ID": {
       "description": "Dapatkan APP ID di web my.telegram.org",
-      "value": "11894108"
+      "value": "12161060"
     },
     "API_HASH": {
       "description": "Dapatkan API HASH di web my.telegram.org",
-      "value": "80690120937f2c6364476dc5cf779560"
+      "value": "4691596dd0db86df02cf7d54ec73bb68"
     },
     "CHANNEL_ID": {
       "description": "Masukan ID Channel Untuk [Channel Database]",
