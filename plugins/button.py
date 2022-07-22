@@ -15,8 +15,6 @@ def start_button(client):
                 InlineKeyboardButton(text="• ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ •", callback_data="about"),
                 InlineKeyboardButton(text="• ᴛᴜᴛᴜᴘ •", callback_data="close"),
             ],
-            [
-                InlineKeyboardButton(text="• TWITTER MIMIN •", url=f"https://twitter.com/omehot_tv"),
 		InlineKeyboardButton(text="• VIP MURAH •", url=f"https://t.me/vip4646")
             ]
         ]
@@ -31,7 +29,6 @@ def start_button(client):
                 InlineKeyboardButton(text="• ᴛᴜᴛᴜᴘ •", callback_data="close"),
             ],
             [
-                InlineKeyboardButton(text="• TWITTER MIMIN •", url=f"https://twitter.com/omehot_tv"),
 		InlineKeyboardButton(text="• VIP MURAH •", url=f"https://t.me/vip4646")
             ]
         ]
@@ -76,7 +73,6 @@ def fsub_button(client, message):
                 InlineKeyboardButton(text="ʙᴇʀɢᴀʙᴜɴɢ", url=client.invitelink2),
             ],
             [
-                InlineKeyboardButton(text="• TWITTER MIMIN •", url=f"https://twitter.com/omehot_tv"),
 		InlineKeyboardButton(text="• VIP MURAH •", url=f"https://t.me/vip4646")
             ]
         ]
@@ -98,7 +94,6 @@ def fsub_button(client, message):
                 InlineKeyboardButton(text="ʙᴇʀɢᴀʙᴜɴɢ", url=client.invitelink),
             ],
             [
-                InlineKeyboardButton(text="• TWITTER MIMIN •", url=f"https://twitter.com/omehot_tv"),
 		InlineKeyboardButton(text="• VIP MURAH •", url=f"https://t.me/vip4646")
             ]
         ]
@@ -121,7 +116,6 @@ def fsub_button(client, message):
                 InlineKeyboardButton(text="• ᴊᴏɪɴ 2 •", url=client.invitelink2),
             ],
             [
-                InlineKeyboardButton(text="• TWITTER MIMIN •", url=f"https://twitter.com/omehot_tv"),
 		InlineKeyboardButton(text="• VIP MURAH •", url=f"https://t.me/vip4646")
             ]
         ]
