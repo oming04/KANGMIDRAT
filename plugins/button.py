@@ -15,6 +15,7 @@ def start_button(client):
                 InlineKeyboardButton(text="• ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ •", callback_data="about"),
                 InlineKeyboardButton(text="• ᴛᴜᴛᴜᴘ •", callback_data="close"),
             ],
+	    [
 		InlineKeyboardButton(text="• VIP MURAH •", url=f"https://t.me/vip4646"),
             ],
         ]
