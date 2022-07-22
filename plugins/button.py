@@ -43,7 +43,6 @@ def start_button(client):
                 InlineKeyboardButton(text="• ᴛᴜᴛᴜᴘ •", callback_data="close"),
             ],
             [
-                InlineKeyboardButton(text="• TWITTER MIMIN •", url=f"https://twitter.com/omehot_tv"),
 		InlineKeyboardButton(text="• VIP MURAH •", url=f"https://t.me/vip4646")
             ]
         ]
@@ -58,7 +57,6 @@ def start_button(client):
                 InlineKeyboardButton(text="• ᴊᴏɪɴ 2 •", url=client.invitelink2),
             ],
             [
-                InlineKeyboardButton(text="• TWITTER MIMIN •", url=f"https://twitter.com/omehot_tv"),
 		InlineKeyboardButton(text="• VIP MURAH •", url=f"https://t.me/vip4646")
             ],
             [InlineKeyboardButton(text="• ᴛᴜᴛᴜᴘ •", callback_data="close")],
