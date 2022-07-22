@@ -15,8 +15,8 @@ def start_button(client):
                 InlineKeyboardButton(text="• ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ •", callback_data="about"),
                 InlineKeyboardButton(text="• ᴛᴜᴛᴜᴘ •", callback_data="close"),
             ],
-		InlineKeyboardButton(text="• VIP MURAH •", url=f"https://t.me/vip4646")
-            ]
+		InlineKeyboardButton(text="• VIP MURAH •", url=f"https://t.me/vip4646"),
+            ],
         ]
         return buttons
     if not FORCE_SUB_CHANNEL and FORCE_SUB_GROUP:
@@ -29,8 +29,8 @@ def start_button(client):
                 InlineKeyboardButton(text="• ᴛᴜᴛᴜᴘ •", callback_data="close"),
             ],
             [
-		InlineKeyboardButton(text="• VIP MURAH •", url=f"https://t.me/vip4646")
-            ]
+		InlineKeyboardButton(text="• VIP MURAH •", url=f"https://t.me/vip4646"),
+            ],
         ]
         return buttons
     if FORCE_SUB_CHANNEL and not FORCE_SUB_GROUP:
@@ -43,8 +43,8 @@ def start_button(client):
                 InlineKeyboardButton(text="• ᴛᴜᴛᴜᴘ •", callback_data="close"),
             ],
             [
-		InlineKeyboardButton(text="• VIP MURAH •", url=f"https://t.me/vip4646")
-            ]
+		InlineKeyboardButton(text="• VIP MURAH •", url=f"https://t.me/vip4646"),
+            ],
         ]
         return buttons
     if FORCE_SUB_CHANNEL and FORCE_SUB_GROUP:
@@ -57,7 +57,7 @@ def start_button(client):
                 InlineKeyboardButton(text="• ᴊᴏɪɴ 2 •", url=client.invitelink2),
             ],
             [
-		InlineKeyboardButton(text="• VIP MURAH •", url=f"https://t.me/vip4646")
+		InlineKeyboardButton(text="• VIP MURAH •", url=f"https://t.me/vip4646"),
             ],
             [InlineKeyboardButton(text="• ᴛᴜᴛᴜᴘ •", callback_data="close")],
         ]
@@ -71,8 +71,8 @@ def fsub_button(client, message):
                 InlineKeyboardButton(text="ʙᴇʀɢᴀʙᴜɴɢ", url=client.invitelink2),
             ],
             [
-		InlineKeyboardButton(text="• VIP MURAH •", url=f"https://t.me/vip4646")
-            ]
+		InlineKeyboardButton(text="• VIP MURAH •", url=f"https://t.me/vip4646"),
+            ],
         ]
         try:
             buttons.append(
@@ -92,8 +92,8 @@ def fsub_button(client, message):
                 InlineKeyboardButton(text="ʙᴇʀɢᴀʙᴜɴɢ", url=client.invitelink),
             ],
             [
-		InlineKeyboardButton(text="• VIP MURAH •", url=f"https://t.me/vip4646")
-            ]
+		InlineKeyboardButton(text="• VIP MURAH •", url=f"https://t.me/vip4646"),
+            ],
         ]
         try:
             buttons.append(
@@ -114,8 +114,8 @@ def fsub_button(client, message):
                 InlineKeyboardButton(text="• ᴊᴏɪɴ 2 •", url=client.invitelink2),
             ],
             [
-		InlineKeyboardButton(text="• VIP MURAH •", url=f"https://t.me/vip4646")
-            ]
+		InlineKeyboardButton(text="• VIP MURAH •", url=f"https://t.me/vip4646"),
+            ],
         ]
         try:
             buttons.append(
